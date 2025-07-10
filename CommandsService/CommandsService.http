@@ -1,0 +1,8 @@
+@CommandsService_HostAddress = http://localhost:6000
+
+GET {{CommandsService_HostAddress}}/health
+Accept: application/json
+
+###
+GET {{CommandsService_HostAddress}}/api/c/platforms
+Accept: application/json
